@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Bush_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/Bush_my.pretty")(options "")(descr ""))
+)
