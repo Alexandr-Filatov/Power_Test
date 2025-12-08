@@ -632,176 +632,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1723,12 +1553,6 @@
 		(uuid "4160df1a-e52b-42b4-863f-a37b716e6e1f")
 	)
 	(junction
-		(at 137.16 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43d7ce13-749b-4dbb-ba0b-f4a084900604")
-	)
-	(junction
 		(at 43.18 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1877,12 +1701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d64e3069-54d4-4b47-927a-967a56d49883")
-	)
-	(junction
-		(at 71.12 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d71889ca-aa6e-4bf6-b033-72350f976010")
 	)
 	(junction
 		(at 55.88 71.12)
@@ -2580,16 +2398,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 33.02) (xy 71.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784a9053-55df-4756-927c-afc76500e7b9")
-	)
-	(wire
-		(pts
 			(xy 129.54 142.24) (xy 129.54 144.78)
 		)
 		(stroke
@@ -2670,7 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 33.02) (xy 137.16 35.56)
+			(xy 137.16 30.48) (xy 137.16 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2890,16 +2698,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 137.16 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23d1a27-c0c2-4f91-85bf-f437b1744512")
-	)
-	(wire
-		(pts
 			(xy 114.3 39.37) (xy 109.22 39.37)
 		)
 		(stroke
@@ -3067,16 +2865,6 @@
 			(type default)
 		)
 		(uuid "d34a5f58-970c-4d82-8edc-7a86a096455e")
-	)
-	(wire
-		(pts
-			(xy 118.11 33.02) (xy 137.16 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3991f7a-e5b8-4763-b296-b16db681411e")
 	)
 	(wire
 		(pts
@@ -3486,28 +3274,6 @@
 			)
 		)
 	)
-	(global_label "DESAT_L"
-		(shape input)
-		(at 292.1 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4033c5dc-0bd3-487f-9c9c-bacdaef55a15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.1348 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ClampL"
 		(shape input)
 		(at 292.1 99.06 180)
@@ -3636,28 +3402,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DESAT_H"
-		(shape output)
-		(at 41.91 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64af437c-ab7b-47ea-a7a3-1f7d116d7170")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.7711 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3860,28 +3604,6 @@
 			)
 		)
 	)
-	(global_label "DESAT_L"
-		(shape input)
-		(at 304.8 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3ff8c4e-a87d-48af-a51f-b275aebd7ebe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.7652 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OutH1"
 		(shape input)
 		(at 304.8 104.14 0)
@@ -3900,28 +3622,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DESAT_H"
-		(shape input)
-		(at 292.1 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7a8f912-54e4-4fb5-b211-b415b03ce7d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.9611 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4102,28 +3802,6 @@
 			)
 		)
 	)
-	(global_label "DESAT_L"
-		(shape output)
-		(at 107.95 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6d4c987-a4b7-4b2c-8475-64cdeda8cd40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.9848 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ClampH"
 		(shape input)
 		(at 41.91 140.97 180)
@@ -4164,28 +3842,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DESAT_H"
-		(shape input)
-		(at 304.8 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f84c1f97-7aac-498c-ac7f-d8cdf53a4b57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.9389 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5742,92 +5398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 115.57 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c4957f6-8675-4724-9bc7-1c9304b80a97")
-		(property "Reference" "D4"
-			(at 115.57 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STTH1R06A"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 115.57 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5de620e-e7bb-4546-b8dc-58b470167743")
-		)
-		(pin "1"
-			(uuid "06890e6f-8a85-4041-a772-feef48073691")
-		)
-		(instances
-			(project "Power_Test"
-				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_my:GND2H")
 		(at 137.16 60.96 270)
 		(unit 1)
@@ -7219,92 +6789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 110.49 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75d074e2-4271-4dfd-8ef2-e071fbf1ef56")
-		(property "Reference" "D3"
-			(at 110.49 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STTH1R06A"
-			(at 110.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 110.49 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 110.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8669a00c-9561-41c3-b46e-db028e25e0d1")
-		)
-		(pin "1"
-			(uuid "3cfaa6d7-fb96-49f4-9558-b9187f9334bf")
-		)
-		(instances
-			(project "Power_Test"
-				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDC")
 		(at 71.12 93.98 0)
 		(unit 1)
@@ -7503,92 +6987,6 @@
 			(project "Power_Test"
 				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 49.53 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81efc714-270f-4e9b-b0f2-60e26a57015e")
-		(property "Reference" "D2"
-			(at 49.53 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STTH1R06A"
-			(at 49.53 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 49.53 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "757f8b72-c43d-4323-aea8-9aabe7e75fd9")
-		)
-		(pin "1"
-			(uuid "42fe8f9a-0efd-4d76-8e3d-35a505c830c1")
-		)
-		(instances
-			(project "Power_Test"
-				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9048,6 +8446,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 297.18 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db7b4cf8-fa48-4352-962b-08c9cfc70432")
+		(property "Reference" "J7"
+			(at 298.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Odd_Even"
+			(at 298.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
+			(at 297.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 297.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "de61c6bb-0720-42f2-9e1c-4f6ad1ea734b")
+		)
+		(pin "1"
+			(uuid "8c3f5e19-2238-4ede-99d6-7b7dc29a7dae")
+		)
+		(pin "3"
+			(uuid "1adf4c2a-4b96-4f6d-9ecb-5f6053cf7925")
+		)
+		(pin "4"
+			(uuid "1e040d1d-5bd9-4264-ae34-b3ec67908c3c")
+		)
+		(pin "7"
+			(uuid "07cb24f2-2603-41b7-9c64-a5e3b56e54e1")
+		)
+		(pin "6"
+			(uuid "f607f209-3143-4017-8899-6450a25de100")
+		)
+		(pin "9"
+			(uuid "f3b38eda-940d-4b85-8ed6-ecd736ba9de0")
+		)
+		(pin "10"
+			(uuid "8b6d9375-9825-46cc-ae8e-93fc9e5fd743")
+		)
+		(pin "8"
+			(uuid "11e4a35c-bf83-4142-a13a-4dff62ee7d0f")
+		)
+		(pin "2"
+			(uuid "7876f13a-8656-4e57-b3be-6d9761384326")
+		)
+		(instances
+			(project "Power_Test"
+				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_my:GND2H")
 		(at 71.12 144.78 0)
 		(unit 1)
@@ -9764,92 +9254,6 @@
 			(project "Power_Test"
 				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 44.45 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f31f806a-1d55-47e9-99ca-d7ad63d6140a")
-		(property "Reference" "D1"
-			(at 44.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STTH1R06A"
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 44.45 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 44.45 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 44.45 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f788fc9-9af5-4c2f-abab-277a92b4ce02")
-		)
-		(pin "1"
-			(uuid "422c3c48-b706-4e0d-9205-10de3fc6ff3c")
-		)
-		(instances
-			(project ""
-				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
-					(reference "D1")
 					(unit 1)
 				)
 			)
