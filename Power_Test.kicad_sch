@@ -1529,7 +1529,7 @@
 		(uuid "1614163e-2ca6-4d0e-bcd1-7827027a6803")
 	)
 	(junction
-		(at 299.72 38.1)
+		(at 293.37 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a19a1b-3c9d-48ba-8fde-2b5f747f42a5")
@@ -1577,7 +1577,7 @@
 		(uuid "5e3abea7-5d3e-4905-a464-8343c6ef68f3")
 	)
 	(junction
-		(at 299.72 41.91)
+		(at 293.37 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6074852b-2627-47f6-b563-716dd6289ef4")
@@ -1593,6 +1593,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c45cf7-81b5-46a1-975f-19b2511f7ea5")
+	)
+	(junction
+		(at 312.42 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70e6da0d-2c38-4de7-a47d-a118b9d1d875")
 	)
 	(junction
 		(at 109.22 101.6)
@@ -1707,6 +1713,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d78f6885-309b-464d-bc14-55b78fbdc1ad")
+	)
+	(junction
+		(at 312.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0401a95-8962-49d2-ab21-f2f5645bc1df")
 	)
 	(junction
 		(at 109.22 71.12)
@@ -1908,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 38.1) (xy 299.72 41.91)
+			(xy 293.37 38.1) (xy 293.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1998,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 34.29) (xy 312.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef787d7-6ce5-48d8-a973-25d023426852")
+	)
+	(wire
+		(pts
 			(xy 41.91 134.62) (xy 43.18 134.62)
 		)
 		(stroke
@@ -2068,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 41.91) (xy 299.72 45.72)
+			(xy 293.37 41.91) (xy 293.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2318,6 +2340,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 41.91) (xy 312.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd4c408-6d0d-40c9-9016-a6bcc8a6a40f")
+	)
+	(wire
+		(pts
 			(xy 119.38 135.89) (xy 119.38 140.97)
 		)
 		(stroke
@@ -2388,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 41.91) (xy 312.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bc6328-3aac-43fd-96b2-c59fc081b449")
+	)
+	(wire
+		(pts
 			(xy 53.34 133.35) (xy 53.34 134.62)
 		)
 		(stroke
@@ -2425,6 +2467,16 @@
 			(type default)
 		)
 		(uuid "79bb1a36-a563-4ddb-8954-7b4b52c7a436")
+	)
+	(wire
+		(pts
+			(xy 312.42 38.1) (xy 312.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b54749e-13d4-4b12-8fa2-8dba0a0ce1cd")
 	)
 	(wire
 		(pts
@@ -2538,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 34.29) (xy 299.72 38.1)
+			(xy 293.37 34.29) (xy 293.37 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2868,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 41.91) (xy 299.72 41.91)
+			(xy 297.18 41.91) (xy 293.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3472,6 +3524,28 @@
 			)
 		)
 	)
+	(global_label "OUT"
+		(shape output)
+		(at 316.23 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d71087b-018d-48fd-b858-fa175345947d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.8438 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ClampH"
 		(shape input)
 		(at 41.91 107.95 180)
@@ -3672,7 +3746,7 @@
 	)
 	(global_label "OUT"
 		(shape output)
-		(at 303.53 41.91 0)
+		(at 297.18 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3682,7 +3756,7 @@
 		)
 		(uuid "d8a3af72-27c5-4def-baf7-764488e20def")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.1438 41.91 0)
+			(at 303.7938 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,6 +4455,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 307.34 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16ec128a-6d4a-4a9b-8289-50ac8edd9bd5")
+		(property "Reference" "J10"
+			(at 304.165 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 307.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Bush_my:Bush_5x3"
+			(at 307.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "744c9762-b4ab-4190-8327-413bcfd70512")
+		)
+		(instances
+			(project "Power_Test"
+				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 137.16 111.76 0)
 		(unit 1)
@@ -4508,6 +4646,70 @@
 			(project "Power_Test"
 				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 307.34 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22674c1e-8da7-4355-8ae6-fcf0b4f35347")
+		(property "Reference" "J11"
+			(at 304.165 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 307.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Bush_my:Bush_5x3"
+			(at 307.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21a225f1-9efb-499c-b968-0175cdf5bde0")
+		)
+		(instances
+			(project "Power_Test"
+				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6333,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 294.64 38.1 180)
+		(at 288.29 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6139,7 +6341,7 @@
 		(dnp no)
 		(uuid "61c260bc-f28c-4a61-80d5-fc08f8c7a603")
 		(property "Reference" "J2"
-			(at 291.465 38.1 0)
+			(at 285.115 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6349,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 294.64 34.29 0)
+			(at 288.29 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6358,7 @@
 			)
 		)
 		(property "Footprint" "Bush_my:Bush_5x3"
-			(at 294.64 38.1 0)
+			(at 288.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 38.1 0)
+			(at 288.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6376,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 38.1 0)
+			(at 288.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7132,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 294.64 34.29 180)
+		(at 288.29 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6938,7 +7140,7 @@
 		(dnp no)
 		(uuid "7e3d69f7-27a4-4cbe-bd26-d5424acceb27")
 		(property "Reference" "J1"
-			(at 291.465 34.29 0)
+			(at 285.115 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +7148,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 294.64 30.48 0)
+			(at 288.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +7157,7 @@
 			)
 		)
 		(property "Footprint" "Bush_my:Bush_5x3"
-			(at 294.64 34.29 0)
+			(at 288.29 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +7166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 34.29 0)
+			(at 288.29 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +7175,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 34.29 0)
+			(at 288.29 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7786,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 294.64 41.91 180)
+		(at 288.29 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7592,7 +7794,7 @@
 		(dnp no)
 		(uuid "9eba31bd-7b24-4569-89a5-ee9b51838488")
 		(property "Reference" "J3"
-			(at 291.465 41.91 0)
+			(at 285.115 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7802,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 294.64 38.1 0)
+			(at 288.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7811,7 @@
 			)
 		)
 		(property "Footprint" "Bush_my:Bush_5x3"
-			(at 294.64 41.91 0)
+			(at 288.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 41.91 0)
+			(at 288.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 41.91 0)
+			(at 288.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,6 +8313,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 307.34 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0aa1a68-6731-4757-a4f7-508b4a87968a")
+		(property "Reference" "J8"
+			(at 304.165 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 307.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Bush_my:Bush_5x3"
+			(at 307.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84525a87-3edf-4b84-8db3-74037b06f406")
+		)
+		(instances
+			(project "Power_Test"
+				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:C2M0280120D")
 		(at 134.62 134.62 0)
 		(unit 1)
@@ -8187,7 +8453,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 294.64 45.72 180)
+		(at 288.29 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8195,7 +8461,7 @@
 		(dnp no)
 		(uuid "bd813f7e-7410-4d19-ad4b-ff82dd7a21e3")
 		(property "Reference" "J4"
-			(at 291.465 45.72 0)
+			(at 285.115 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8469,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 294.64 41.91 0)
+			(at 288.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +8478,7 @@
 			)
 		)
 		(property "Footprint" "Bush_my:Bush_5x3"
-			(at 294.64 45.72 0)
+			(at 288.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 45.72 0)
+			(at 288.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +8496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 294.64 45.72 0)
+			(at 288.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,6 +8576,70 @@
 			(project "Power_Test"
 				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 307.34 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb7fa43b-1c86-4572-b528-e66f0cd3004a")
+		(property "Reference" "J9"
+			(at 304.165 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 307.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Bush_my:Bush_5x3"
+			(at 307.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7d63fc9-ebb0-44d7-b57d-6a3bbfa81531")
+		)
+		(instances
+			(project "Power_Test"
+				(path "/fc071d85-7597-44a2-8c9e-42a10bdf6b41"
+					(reference "J9")
 					(unit 1)
 				)
 			)
