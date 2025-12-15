@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 2)
+		(thickness 1.5)
 		(legacy_teardrops no)
 	)
 	(paper "A3")
@@ -54,7 +54,7 @@
 			(layer "dielectric 1"
 				(type "core")
 				(color "FR4 natural")
-				(thickness 1.91)
+				(thickness 1.41)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -2893,7 +2893,7 @@
 		)
 		(model "${KIPRJMOD}/3D/Driver_Test.step"
 			(offset
-				(xyz -4 -8.5 20.5)
+				(xyz -4 -8.5 22.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9958,7 +9958,7 @@
 		)
 		(model "${KIPRJMOD}/3D/Driver_Test.step"
 			(offset
-				(xyz -3.85 -8.35 20.5)
+				(xyz -3.85 -8.35 22.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -16492,8 +16492,6 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
-			(smoothing fillet)
-			(radius 1)
 		)
 		(polygon
 			(pts
@@ -16878,8 +16876,8 @@
 		)
 		(polygon
 			(pts
-				(xy 217.25 101) (xy 217.25 96.75) (xy 191.25 96.75) (xy 191.25 162.25) (xy 191.25 162.25) (xy 191.25 170)
-				(xy 217.25 170) (xy 217.25 142.75)
+				(xy 217.25 101) (xy 217.25 96.75) (xy 191.25 96.75) (xy 191.25 162.25) (xy 191.25 170) (xy 217.25 170)
+				(xy 217.25 142.75)
 			)
 		)
 		(filled_polygon
