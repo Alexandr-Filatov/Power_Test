@@ -5103,7 +5103,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Bus_copper_bottom.stp"
 			(offset
-				(xyz -2.5 1.5 -0.1)
+				(xyz -2.5 1.5 -0.15)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10272,7 +10272,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Bus_copper_top.stp"
 			(offset
-				(xyz -2.5 -1.5 -2)
+				(xyz -2.5 -1.5 -1.4)
 			)
 			(scale
 				(xyz 1 1 1)
