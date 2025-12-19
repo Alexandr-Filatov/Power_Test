@@ -5103,7 +5103,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Bus_copper_bottom.stp"
 			(offset
-				(xyz -2.5 1.5 -0.15)
+				(xyz -2.5 1.5 -0.1)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10281,6 +10281,17 @@
 				(xyz -90 -0 90)
 			)
 		)
+		(model "${KIPRJMOD}/3D/Curent_Sensor_Test.step"
+			(offset
+				(xyz 0 64 12.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp"
 		(layer "B.Cu")
@@ -14799,6 +14810,28 @@
 				(xyz -90 -0 -0)
 			)
 		)
+	)
+	(gr_circle
+		(center 283.25 133.25)
+		(end 283.25 126)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "5944a4a0-fe51-4303-94e7-2589672062f0")
+	)
+	(gr_rect
+		(start 277.25 130.75)
+		(end 289.25 135.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "8ffd618a-86f2-4b20-b453-deaf2a816998")
 	)
 	(gr_line
 		(start 145.5 95.75)
