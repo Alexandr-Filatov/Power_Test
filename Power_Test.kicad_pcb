@@ -5102,6 +5102,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Bus_copper_bottom.stp"
+			(hide yes)
 			(offset
 				(xyz -2.5 1.5 -0.1)
 			)
@@ -5110,6 +5111,17 @@
 			)
 			(rotate
 				(xyz 90 -0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/3D/Bush_phase_mono.stp"
+			(offset
+				(xyz 2.5 -79 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 180 90)
 			)
 		)
 	)
@@ -10271,6 +10283,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Bus_copper_top.stp"
+			(hide yes)
 			(offset
 				(xyz -2.5 -1.5 -1.4)
 			)
@@ -10282,6 +10295,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/3D/Curent_Sensor_Test.step"
+			(hide yes)
 			(offset
 				(xyz 0 64 12.5)
 			)
@@ -14811,28 +14825,6 @@
 			)
 		)
 	)
-	(gr_circle
-		(center 283.25 133.25)
-		(end 283.25 126)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "5944a4a0-fe51-4303-94e7-2589672062f0")
-	)
-	(gr_rect
-		(start 277.25 130.75)
-		(end 289.25 135.75)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "8ffd618a-86f2-4b20-b453-deaf2a816998")
-	)
 	(gr_line
 		(start 145.5 95.75)
 		(end 145.5 170.745)
@@ -14872,6 +14864,82 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "8f300602-55ea-4568-9478-6571c5a2cbb6")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Mask")
+		(uuid "9436bfac-d584-4109-bcdc-f2ac5c4f17ee")
+		(pts
+			(xy 185.75 160.5) (xy 185.75 95.75)
+		)
+		(height -49.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "64,75"
+			(at 135.1 128.125 90)
+			(layer "F.Mask")
+			(uuid "9436bfac-d584-4109-bcdc-f2ac5c4f17ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Mask")
+		(uuid "f284128e-5cfc-4ea7-8b65-b5ed4df3e8e7")
+		(pts
+			(xy 177.75 95.75) (xy 185.75 95.75)
+		)
+		(height -3)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8"
+			(at 181.75 91.6 0)
+			(layer "F.Mask")
+			(uuid "f284128e-5cfc-4ea7-8b65-b5ed4df3e8e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type orthogonal)
@@ -16535,6 +16603,47 @@
 				(xy 177.180693 97.471859) (xy 177.105843 97.311344) (xy 177.023831 97.135468) (xy 177.008326 97.108612)
 				(xy 176.908957 96.9365) (xy 176.892484 96.8686) (xy 176.915337 96.802573) (xy 176.970258 96.759382)
 				(xy 177.016344 96.7505) (xy 185.859869 96.7505)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Mask")
+		(uuid "ada08073-f520-4fe3-b304-ee2e4d0dd6c1")
+		(hatch none 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 177.75 95.75) (xy 185.75 95.75) (xy 185.75 160.5) (xy 177.75 160.5)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 185.693039 95.769685) (xy 185.738794 95.822489) (xy 185.75 95.874) (xy 185.75 160.376) (xy 185.730315 160.443039)
+				(xy 185.677511 160.488794) (xy 185.626 160.5) (xy 177.874 160.5) (xy 177.806961 160.480315) (xy 177.761206 160.427511)
+				(xy 177.75 160.376) (xy 177.75 95.874) (xy 177.769685 95.806961) (xy 177.822489 95.761206) (xy 177.874 95.75)
+				(xy 185.626 95.75)
+			)
+		)
+		(filled_polygon
+			(layer "B.Mask")
+			(island)
+			(pts
+				(xy 185.693039 95.769685) (xy 185.738794 95.822489) (xy 185.75 95.874) (xy 185.75 160.376) (xy 185.730315 160.443039)
+				(xy 185.677511 160.488794) (xy 185.626 160.5) (xy 177.874 160.5) (xy 177.806961 160.480315) (xy 177.761206 160.427511)
+				(xy 177.75 160.376) (xy 177.75 95.874) (xy 177.769685 95.806961) (xy 177.822489 95.761206) (xy 177.874 95.75)
+				(xy 185.626 95.75)
 			)
 		)
 	)
